@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 스탑워치 - 무료 정밀 타이머</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="온라인 스탑워치는 정확한 시간 측정을 위한 무료 웹 기반 타이머입니다. 기록, 랩 타임 및 초기화 기능을 지원합니다.">
+    <meta name="keywords" content="온라인 스탑워치, 스탑워치, 타이머, 정밀 타이머, 무료 스탑워치">
+    <meta property="og:title" content="온라인 스탑워치 - 무료 정밀 타이머">
+    <meta property="og:description" content="온라인 스탑워치는 정확한 시간 측정을 위한 무료 웹 기반 타이머입니다. 기록, 랩 타임 및 초기화 기능을 지원합니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hopefully.site/stopwatch">
+    <meta property="og:image" content="https://hopefully.site/public/images/clocks.jpg">
+    <link rel="icon" type="image/svg+xml" href="../public/icon/time-tracking.svg" />
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJJF1QRMR5"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-TJJF1QRMR5');
+     </script>
+     <!-- Ad Sense-->
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2941408366338677"
+      crossorigin="anonymous"></script>
+</head>
+<body>
+  <header><h1>온라인 스탑워치</h1></header>
+  <div class="stopwatch">
+    <div class="timer"><span class="minute">00</span>:<span class="second">00</span>.<span class="millisecond">00</span></div>
+    <div class="buttons">
+      <button id="start">시작</button>
+      <button id="lap" disabled>기록</button>
+      <button id="reset" disabled>초기화</button>
+    </div>
+    <div class="laps">
+      <ul id="lap-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
