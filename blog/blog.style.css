@@ -157,3 +157,24 @@ body:hover .home-button {
   opacity: 1;
   pointer-events: auto;
 }
+.list-wrapper {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-wrapper li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.list-wrapper h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.list-wrapper p {
+  font-size: 1em;
+  line-height: 1.4;
+}
